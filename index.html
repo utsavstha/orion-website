@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orion - Master Your File Organization</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="background-logo-container">
+        <img src="images/logo.png" alt="" class="background-logo">
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/app_icon.png" alt="Orion Logo" class="logo-icon" style="height: 32px; width: auto;">
+                <span>Orion</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#downloads">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Automate Your Digital Chaos</h1>
+                <p class="subtitle fade-in delay-1">Orion intelligently organizes your files based on rules you define.
+                    Private, offline, and blazingly fast.</p>
+                <div class="hero-actions fade-in delay-2">
+                    <a href="#downloads" class="btn-primary">Download Now</a>
+                    <a href="#features" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in delay-3">
+                <img src="images/dashboard.png" alt="Orion Dashboard"
+                    class="app-screenshot-main shadow-lg rounded-xl border border-gray-200">
+            </div>
+        </div>
+    </header>
+
+    <!-- Value Props / Info -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Orion?</h2>
+                <p>Designed for power users and minimalists alike.</p>
+            </div>
+            <div class="grid-3">
+                <div class="feature-card">
+                    <i data-lucide="shield" class="feature-icon"></i>
+                    <h3>100% Private & Offline</h3>
+                    <p>Orion runs entirely on your local machine. No data is ever sent to the cloud. Your files are your
+                        business.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="zap" class="feature-icon"></i>
+                    <h3>Blazing Fast</h3>
+                    <p>Built with Rust and Tauri, Orion uses minimal resources while processing thousands of files in
+                        seconds.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="sliders" class="feature-icon"></i>
+                    <h3>Granular Control</h3>
+                    <p>Filter by name, extension, date, and more. Chain conditions to create complex workflows
+                        effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>See It In Action</h2>
+                <p>A clean, intuitive interface that gets out of your way.</p>
+            </div>
+            <div class="grid-3 screenshot-grid">
+                <div class="screenshot-item">
+                    <img src="images/rules.png" alt="Rule Builder"
+                        class="rounded-lg shadow-md border hover:scale-105 transition-transform">
+                    <p class="caption mt-4">Intuitive Rule Builder</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/activity log and undo function.png" alt="Activity Log"
+                        class="rounded-lg shadow-md border hover:scale-105 transition-transform">
+                    <p class="caption mt-4">Activity Log with Undo</p>
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/settings page.png" alt="Settings Page"
+                        class="rounded-lg shadow-md border hover:scale-105 transition-transform">
+                    <p class="caption mt-4">Easy Configuration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple setup, powerful results.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Select a Folder</h3>
+                        <p>Choose any directory on your computer that you want Orion to watch (e.g., Downloads,
+                            Desktop).</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Define Rules</h3>
+                        <p>Tell Orion what to do. Example: "If file is a PDF, move it to the Documents folder."</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Automate</h3>
+                        <p>Orion runs in the background. Or, trigger it manually. Undo any action with a single click if
+                            needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="downloads" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Orion</h2>
+                <p style="color: #9ca3af;">Available for macOS, Windows, and Linux.</p>
+            </div>
+            <div class="grid-3 download-grid">
+                <div class="download-card">
+                    <i data-lucide="apple" class="w-12 h-12 mb-4"></i>
+                    <h3>macOS</h3>
+                    <p class="text-gray-400 text-sm mb-6">Universal (Intel & Apple Silicon)</p>
+                    <a href="releases/Orion-macOS.dmg" class="btn-primary w-full text-center" download>Download .dmg</a>
+                </div>
+                <div class="download-card">
+                    <i data-lucide="monitor" class="w-12 h-12 mb-4"></i>
+                    <h3>Windows</h3>
+                    <p class="text-gray-400 text-sm mb-6">Windows 10/11 (x64)</p>
+                    <a href="releases/Orion-Setup.exe" class="btn-primary w-full text-center" download>Download .exe</a>
+                </div>
+                <div class="download-card">
+                    <i data-lucide="terminal" class="w-12 h-12 mb-4"></i>
+                    <h3>Linux</h3>
+                    <p class="text-gray-400 text-sm mb-6">Debian/Ubuntu (.deb)</p>
+                    <a href="https://github.com/utsavstha/orion/releases/latest/download/orion_amd64.deb"
+                        class="btn-primary w-full text-center">Download .deb</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content flex-col gap-4 text-center">
+                <div class="footer-logo font-bold text-xl">Orion</div>
+                <div class="footer-links" style="display: flex; gap: 20px; justify-content: center; margin: 10px 0;">
+                    <a href="privacy.html" style="color: #6b7280; font-size: 0.9rem;">Privacy Policy</a>
+                    <a href="terms.html" style="color: #6b7280; font-size: 0.9rem;">Terms of Use</a>
+                </div>
+                <div class="copyright text-gray-500 text-sm">
+                    &copy; 2025 Blackspring. Made with ❤️ in Nepal.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
